@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>home </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+   
+	<div class="nav" id="nav">
+		<ul class="navbar-nav">
+			<li><a href="#">
+				<i class="fa fa-twitter"></i><span class="link-text close" onclick="closeNav()">X</span>
+			</a></li>
+			<li><a href="#"><i class="fa fa-home"></i><span class="link-text">Главная</span></a></li>
+			<li><a href="#"><i class="fa fa-rocket"></i><span>Исследовать</span class="link-text"></a></li>
+			<li><a href="#"><i class="fa fa-bell"></i><span class="link-text">Уведомления</span></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i><span class="link-text">Сообщения</span></a></li>
+			<li><a href="#"><i class="fa fa-bookmark"></i><span class="link-text">Закладки</span></a></li>
+			<li><a href="#"><i class="fa fa-list"></i><span class="link-text">Списки</span></a></li>
+			<li><a href="#"><i class="fa fa-user"></i><span class="link-text">Мой профиль</span></a></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i><span class="link-text">Доп</span></a></li>
+			<li><a href="#"><i class="fa fa-delete"></i><span class="link-text">Выход</span></a></li>
+		</ul>		
+	</div>
+
+
+
+ <div class="second" id="second">
+
+		 <div class="second-tweet">
+		 	  <div class="tweet-header">
+        		<h4>Главная</h4>
+				<button class="btns" onclick="openNav()">☰ </button>
+     		 </div>
+
+     	
+     		 <div class="add-tweet">
+     		 	<span class="add-tweet-image">
+     		 		<a href="#"><img src="static/log.webp" class="rounded-circle profile-image" width="60px" height="60px" ></a>
+     		 	</span>
+     		 	<div class="add-tweet-input">
+     		 		<div>
+                        <textarea type="text" rows="3" cols="50"  placeholder =" Напишите, что думаете"></textarea>
+     		 		</div>
+     		 		<div>
+     		 			<ul class="add-tweet-icon">
+						  <div class="add-icon">
+     		 				<li class="side-icon"><i class="fa fa-image"></i></li>
+     		 				<li class="side-icon"><i class="fa fa-play"></i></li>
+                              <li class="side-icon"><i class="fa fa-bus"></i></li>
+                              <li class="side-icon"><i class="fa fa-calendar"></i></li>
+     		 				<li class="side-icon"><i class="fa fa-globe"></i></li>
+							</div>
+							
+							  <li class="link-tweet"><span>Опубликовать</span></li>
+     		 			</ul>
+						
+     		 		</div>
+     		 	</div>
+     		 </div>
+     		
+     		 	<div class="actual-tweet">
+	     		 	<span class="add-tweet-image">
+	     		 		<a href="#"><img src="static/mosk.webp" class="rounded-circle profile-image" width="60px" height="60px" ></a>
+	     		 	</span>
+	     		 		<div class="tweet-content">
+	     		 			<a href="#">Step</a> <span class="side-name">@ret7020 | 3 часа назад </span>
+	     		 			<p>This is the detail</p>
+	     		 			<img src="static/mosk.webp" class="image">
+	     		 		</div>
+	     		 		
+     		 	</div>
+     		
+     		 	<div class="actual-tweet">
+	     		 	<span class="add-tweet-image">
+	     		 		<a href="#"><img src="static/mosk.webp" class="rounded-circle profile-image" width="50px" height="50px" ></a>
+	     		 	</span>
+	     		 		<div class="tweet-content">
+	     		 			<a href="#">Step</a> <span class="side-name">@ret7020  | 3 часа назад </span>
+	     		 			<p>This is the detail</p>
+	     		 			<img src="static/mosk.webp" class="image" >
+	     		 		</div>
+	     		 		
+     		 	</div>
+     		</div>
+		 	
+
+		 
+
+		
+
+		 <div class="second-trend">
+		 	<div class="search">
+		 		<i class="fa fa-search searchicon"></i>
+		 		<input type="text" id="search-bar" placeholder="Поиск">
+		 	</div>
+		 	<div class="trend">
+				<h4 class="h4-title">Популярное</h4>
+            <div class="trend-div">
+   			 	<div class="left-20"> 
+    			<a href="#"><small class="trend-title">Рейтинг:</small></a>
+      			<a href="#">
+       			<p class="trend-list"># Putin</p>
+     		    </a>
+				</div>
+            </div>
+   			</div>
+		    <div class="follow">
+    			<h4 class="h4-title">За кем следить?</h4>
+     
+    			<span class="trendlist">
+	   				<span><a href='#'><img src="static/log.webp" class="rounded-circle profile-image" width="50px" height="50px"></a></span>
+		   				<span class="left-20">
+		     				<a href='#'>
+		       					<p class="user-list">Step <span class="side-name">@ret7020</span></p>
+		      				</a>
+		           			<span class="follow-line"> I am famous !</span>
+		    			</span>
+				</span>
+      		</div>
+		 </div>
+	
+		 <div class="bottom-menu">
+			<ul>
+				<li><i class="fa fa-home" style="color: var(--red);"></i></li>
+				<li><i class="fa fa-search"></i></li>
+				<li><i class="fa fa-user"></i></li>
+				<li><i class="fa fa-bell"></i></li>
+			</ul>
+		</div>
+
+
+</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+ 
+<script src="home.js"></script>
+</body>
+</html>
